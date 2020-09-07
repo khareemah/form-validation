@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Validation</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h2 class="form-heading">Create Account</h2>
+      <div class="form-control">
+        <input type="text" placeholder="username" class="username" />
+        <i class="fa-check-circle"></i>
+        <i class="fa-exclamation-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <input type="text" placeholder="example@email.com" class="email" />
+        <i class="fa-check-circle"></i>
+        <i class="fa-exclamation-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <input
+          type="password"
+          class="password"
+          placeholder="password"
+          class="password"
+        />
+        <i class="fa-check-circle"></i>
+        <i class="fa-exclamation-circle"></i>
+        <small>error message</small>
+      </div>
+
+      <div class="form-control">
+        <input
+          type="password"
+          class="password2"
+          placeholder="confirm password"
+          class="password2"
+        />
+        <i class="fa-check-circle"></i>
+        <i class="fa-exclamation-circle"></i>
+        <small>error message</small>
+      </div>
+      <button class="submit">Submit</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
